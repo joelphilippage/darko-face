@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.wear.widget.SwipeDismissFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/swipe_dismiss"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:foreground="@drawable/ripple_effect_rectangle"
+    android:padding="24dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/preview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/half_metal" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/complication1"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginLeft="-100dp"
+            android:layout_marginTop="-100dp"
+            android:src="@drawable/complication_background" />
+
+        <ImageButton
+            android:id="@+id/complication1Icon"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginLeft="-100dp"
+            android:layout_marginTop="-100dp"
+            android:background="@null"
+            android:src="@drawable/add" />
+
+        <ImageView
+            android:id="@+id/complication2"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginLeft="-100dp"
+            android:layout_marginTop="-100dp"
+            android:src="@drawable/complication_background" />
+
+        <ImageButton
+            android:id="@+id/complication2Icon"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginLeft="-100dp"
+            android:layout_marginTop="-100dp"
+            android:background="@null"
+            android:clickable="true"
+            android:focusable="true"
+            android:src="@drawable/add" />
+
+        <ImageView
+            android:id="@+id/complication3"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginLeft="-100dp"
+            android:layout_marginTop="-100dp"
+            android:src="@drawable/complication_background" />
+
+        <ImageButton
+            android:id="@+id/complication3Icon"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginLeft="-100dp"
+            android:layout_marginTop="-100dp"
+            android:background="@null"
+            android:clickable="true"
+            android:focusable="true"
+            android:src="@drawable/add" />
+
+    </RelativeLayout>
+</android.support.wear.widget.SwipeDismissFrameLayout>

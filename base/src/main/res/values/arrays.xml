@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="backgrounds">
+        <item>half_metal</item>
+        <item>metal</item>
+    </string-array>
+    <string-array name="quotes">
+        <item>If God controlled time, then time is pre-decided.</item>
+        <item>Wake up.</item>
+        <item>Sometimes I doubt your commitment to Sparkle Motion!</item>
+        <item>Life isn\'t that simple.</item>
+        <item>I promise that one day, everything\'s going to be better for you.</item>
+    </string-array>
+</resources>
